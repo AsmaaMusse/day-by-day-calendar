@@ -1,6 +1,9 @@
-// Get current date for the header
+// Create an array for the displayed times
+const time = [""];
 
-// create an if statement for the past and present times
+// Get current date for the header using moment.js
+
+// create an if else statement for the past and present times
 
 // save plans to local storage
 
