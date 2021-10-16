@@ -16,20 +16,17 @@ $("#currentDay").text(moment().format("dddd, MMMM Do HH:mm"));
 
 // create an if else statement for the past and present times
 const timeBlock = function () {
-  // if time block selected is > current time, display future colours.
-  if() {
-
-  } else if () {
-    // if time block is < current time, display past colours.
-
-  } else
-  // Else if time block === display present colours.
-
-  return;
+  if (condition) {
+    // if time block === display present colours.
+  } else if (condition) {
+    // Else if time block === display present colours.
+  } else {
+    // if time block selected is > current time, display future colours.
+  }
 };
 
 // save plans to local storage
 
 // Get current day and time on page load
 
-// Add event listener to the save button
+// Add event listener to the save button.
