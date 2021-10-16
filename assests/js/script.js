@@ -11,16 +11,13 @@ const hr16 = $("16");
 const hr17 = $("17");
 
 // Get current date for the header using moment.js
-
-const currentTime = moment().format("dddd, MMMM Do YYYY");
-
-const getCurrentDate = function () {
-  // get current date using moment.js
-  //
-};
+const displayDate = moment();
+$("#currentDay").text(moment().format("dddd, MMMM Do HH:mm"));
 
 // create an if else statement for the past and present times
 
 // save plans to local storage
 
 // Get current day and time on page load
+
+// Add event listener to the save button
