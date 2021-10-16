@@ -51,7 +51,7 @@ textarea {
   width: 10%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-end;
+  /* justify-content: flex-end; */
 }
 
 .past {
@@ -76,6 +76,7 @@ textarea {
   background-color: #06aed5;
   color: var(--main);
   width: 10%;
+  height: 50%;
 }
 
 .saveBtn i:hover {
