@@ -1,5 +1,5 @@
 // Create an array for the displayed times
-const time = ["9, 10, 11, 12, 13, 14, 15, 16, 17"];
+// const time = ["9, 10, 11, 12, 13, 14, 15, 16, 17"];
 const hr9 = $("#9");
 const hr10 = $("10");
 const hr11 = $("11");
