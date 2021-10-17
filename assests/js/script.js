@@ -2,7 +2,7 @@
 const displayDate = moment();
 $("#currentDay").text(moment().format("dddd, MMMM Do HH:mm"));
 
-// Get current time for the if else statement
+// Get current time
 function currentTime() {
   const current = moment().hours();
   const time = $(".time-block");
@@ -29,21 +29,19 @@ function currentTime() {
   });
 }
 
+// return current time
 currentTime();
 
-// target save button
+// Target save button
 const button = $(".saveBtn");
 
-// add a click event listener to save button
-// set up local storage to store event changes
+// Add a click event listener to save button
+// Set up local storage to store event changes
 
 button.on("click", function () {
   const time = $(this).parent().attr("id");
   const schedule = $(this).siblings(".schedule").val();
 
   // set user input to local storage
+  localStorage.setItem(time, schedule);
 });
-
-// Get current day and time on page load
-
-// Add event listener to the save button.
