@@ -7,26 +7,29 @@ function currentTime() {
   const current = moment().hours();
   const time = $(".time-block");
 
-  console.log(current);
-
   time.each(function () {
     // parse string and return integer
     const hour = parseInt($(this).attr("id"));
 
-    console.log(hour);
+    // create an if else statement for the past and present times
+    // Add class attributes depending on the current time
+
+    // if hour === current time display present colours.
+    if (hour === current) {
+      $(this).children(".col-10").attr("class", "present col-10 schedule");
+
+      // Else if hour > current time display present colours.
+    } else if (current > hour) {
+      $(this).children(".col-10").attr("class", "past col-10 schedule");
+
+      /// if hour < current time, display future colours.
+    } else {
+      $(this).children(".col-10").attr("class", "future col-10 schedule");
+    }
   });
 }
 
-// create an if else statement for the past and present times
-// const timeBlock = function () {
-//   if (timeBlock === currentTime) {
-//     // if time block === display present colours.
-//   } else if (timeBlock < currentTime) {
-//     // Else if time block === display present colours.
-//   } else {
-//     // if time block selected is > current time, display future colours.
-//   }
-// };
+currentTime();
 
 // save plans to local storage
 
