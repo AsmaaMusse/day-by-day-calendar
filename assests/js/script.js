@@ -31,7 +31,18 @@ function currentTime() {
 
 currentTime();
 
-// save plans to local storage
+// target save button
+const button = $(".saveBtn");
+
+// add a click event listener to save button
+// set up local storage to store event changes
+
+button.on("click", function () {
+  const time = $(this).parent().attr("id");
+  const schedule = $(this).siblings(".schedule").val();
+
+  // set user input to local storage
+});
 
 // Get current day and time on page load
 
