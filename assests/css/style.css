@@ -62,17 +62,17 @@ textarea {
 
 .past {
   background-color: #d3d3d3;
-  color: var(--border);
+  
 }
 
 .present {
   background-color: #ff6961;
-  color: var(--border);
+  
 }
 
 .future {
   background-color: #77dd77;
-  color: var(--border);
+  
 }
 
 .saveBtn {
