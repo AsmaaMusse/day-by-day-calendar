@@ -6,7 +6,7 @@ For this project my aim was to create a simple calender that allows a user to sa
 
 Deployed Link: https://asmaamusse.github.io/day-by-day-calendar/
 
-GitHub page:https://github.com/AsmaaMusse/day-by-day-calendar/tree/dev
+GitHub page:https://github.com/AsmaaMusse/day-by-day-calendar
 
 ### What did i do?
 
