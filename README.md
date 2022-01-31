@@ -1,4 +1,4 @@
-# Day-By-Day-Calendar
+# Day By Day Calendar ![MIT](https://img.shields.io/static/v1?label=MIT&message=License&color=orange)
 
 ## Overview
 
@@ -27,3 +27,8 @@ JS Code
 ![code-screenshot png](./assests/images/screenshots/code.png)
 
 ![website-screenshot jpg](./assests/images/screenshots/webiste.jpg)
+
+## Contribute
+
+To contribute or ask questions, please <a href="https://mail.google.com/mail/u/0/?tf=cm&to=asmaamusse03@gmail.com&cc&bcc&su&body&fs=1">Email</a> here
+
